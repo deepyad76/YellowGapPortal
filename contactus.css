@@ -1,0 +1,107 @@
+<<<<<<< HEAD
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: yellow;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .container {
+    background-color: white;
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  header, main, footer {
+    margin-bottom: 20px; 
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  main h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  main p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  footer p {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+=======
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  text-align: center;
+  color: #333;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+label {
+  font-size: 14px;
+  color: #333;
+}
+input[type="text"], input[type="email"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+textarea {
+  resize: vertical;
+  height: 150px;
+}
+button {
+  background-color: rgb(135, 192, 235); 
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 16px;
+}
+button:hover {
+  background-color: lightskyblue;
+}
+>>>>>>> bd38e4b55bf9550699429cae134d7a4aa65f6040
